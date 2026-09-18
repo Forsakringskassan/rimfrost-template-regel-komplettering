@@ -75,9 +75,12 @@
       <version>0.0.2</version>
     </dependency>
     <dependency>
+      <!--
+      TODO: Replace this dependency with non-template version
+      -->
       <groupId>se.fk.rimfrost.referensdata</groupId>
-      <artifactId>rimfrost-referensdata-erbjudande</artifactId>
-      <version>0.0.3</version>
+      <artifactId>rimfrost-template-referensdata-erbjudande</artifactId>
+      <version>0.0.1</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
