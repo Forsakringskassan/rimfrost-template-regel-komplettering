@@ -4,12 +4,9 @@ on: [workflow_dispatch, workflow_call, push, pull_request]
 
 jobs:
   call-workflow:
-    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-ci.yaml@cbc0db833d2d0584b3b0e3b7ed4fd27867b3f6ed # main
-    secrets:
-      PACKAGES_RW_ACTOR: ${{ secrets.PACKAGES_RW_ACTOR }}
-      PACKAGES_RW_TOKEN: ${{ secrets.PACKAGES_RW_TOKEN }}
-
-  validate-config:
-    uses: Forsakringskassan/rimfrost-framework-regel/.github/workflows/validate-config.yaml@497e7d8e15d0156a88eaa6a0a12249b16909834b # 1.4.4
-    with:
-      framework-ref: '1.2.3'
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+      packages: write
+    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-quarkus-ci.yaml@7dc0edc0051d2e7b37cfbe45b51841141ee3a835 # main
