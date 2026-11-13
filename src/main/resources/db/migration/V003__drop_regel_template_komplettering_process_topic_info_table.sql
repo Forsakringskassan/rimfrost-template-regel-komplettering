@@ -1,0 +1,1 @@
+DROP TABLE regel_template_komplettering_process_topic_info;
