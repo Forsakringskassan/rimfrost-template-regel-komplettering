@@ -80,7 +80,7 @@
       -->
       <groupId>se.fk.rimfrost.referensdata</groupId>
       <artifactId>rimfrost-template-referensdata-erbjudande</artifactId>
-      <version>0.0.1</version>
+      <version>1.1.1</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
