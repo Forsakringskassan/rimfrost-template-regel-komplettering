@@ -45,12 +45,12 @@
     <dependency>
       <groupId>se.fk.rimfrost.framework.regel.komplettering</groupId>
       <artifactId>rimfrost-framework-regel-komplettering</artifactId>
-      <version>0.4.0</version>
+      <version>0.4.3</version>
     </dependency>
     <dependency>
       <groupId>se.fk.rimfrost.framework.regel.komplettering</groupId>
       <artifactId>rimfrost-framework-regel-komplettering</artifactId>
-      <version>0.4.0</version>
+      <version>0.4.3</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
@@ -80,7 +80,7 @@
       -->
       <groupId>se.fk.rimfrost.referensdata</groupId>
       <artifactId>rimfrost-template-referensdata-erbjudande</artifactId>
-      <version>0.0.1</version>
+      <version>1.1.1</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
