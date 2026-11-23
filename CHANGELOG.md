@@ -2,6 +2,32 @@
 
 Changelog of rimfrost-template-regel-komplettering.
 
+## 0.1.0 (2026-11-23)
+
+### Features
+
+-  Bump dependencies ([c6bed](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/c6bed6bfe7b09f5) Lars Persson)  
+
+### Bug Fixes
+
+-  bump dependencies ([55029](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/55029df8c3aa6fa) Nils Elveros)  
+-  Add regelutfall and kommentar columns to common_data table ([61711](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/617113caf08fbf8) Lars Persson)  
+-  Add kafka.cancelled.topic to application.properties ([74092](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/740928b8c5b5673) Lars Persson)  
+-  Cleanup replyTo leftovers ([c0163](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/c01632183785293) Lars Persson)  
+-  Add kafka.cancelled.topic to application.properties ([e08b9](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/e08b99d34dd3643) Lars Persson)  
+-  Replace github workflows ([b16cf](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/b16cfdda1785be4) Lars Persson)  
+-  **deps**  update dependency se.fk.rimfrost.framework.regel.oul:rimfrost-framework-regel-oul-openapi-jaxrs-spec to v0.0.4 ([dc4bd](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/dc4bdf336a39642) renovate[bot])  
+
+### Dependency updates
+
+- update dependency se.fk.rimfrost.framework.regel:rimfrost-framework-regel to v1.6.2 ([918c6](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/918c61f5d9f0eb2) renovate[bot])  
+- update forsakringskassan/.github digest to cbc0db8 ([497c7](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/497c77dec0427d6) renovate[bot])  
+- update dependency se.fk.rimfrost.framework.regel:rimfrost-framework-regel to v1.4.6 ([d1fca](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/d1fca5aa491b728) renovate[bot])  
+- update forsakringskassan/.github digest to cbd74f1 ([7248a](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/7248ae1928e80e6) renovate[bot])  
+- update forsakringskassan/rimfrost-framework-regel action to v1.4.4 ([51a16](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/51a16dd0816763b) renovate[bot])  
+- update forsakringskassan/.github digest to bfb01f7 ([5f24a](https://github.com/Forsakringskassan/rimfrost-template-regel-komplettering/commit/5f24a764cd3495d) renovate[bot])  
+## rimfrost-1_2 (2026-09-23)
+
 ## 0.0.1 (2026-09-23)
 
 ### Bug Fixes
